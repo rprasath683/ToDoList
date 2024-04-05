@@ -1,0 +1,25 @@
+show databases;
+create database ToDoList_DB;
+use ToDoList_DB;
+
+create table account (
+	   id int AUTO_INCREMENT primary key,
+	   firstname varchar(255),
+       lastName varchar(255),
+       userName varchar(255),
+       password varchar(255),
+       emailId varchar(200),
+       dob varchar(255),
+       mobileNumber long);
+     
+       delete  from NewList;
+       Select * from newList;
+      
+       select count(username) from account where username = 'R' ;
+insert into account( firstname, lastname, userName, password , emailId,dob , mobileNumber) values('ram','prasath', 'ram123','ram@1234','ram@gmail.com','14/08/2001',1234567890);
+create table newList(
+	id int auto_increment primary key,
+    ListName varchar(255),
+    IsDeleted boolean,
+    Username varchar(255));
+    insert into newList(ListName,IsDeleted,UserName)values('TaskOne',false,'Ram');

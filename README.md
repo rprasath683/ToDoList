@@ -1,6 +1,8 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+To do application using java swing and awt
+
+For using this project use the DB.txt file to create the database in my sql.
 
 ## Folder Structure
 
